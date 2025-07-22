@@ -39,11 +39,11 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.arepadeobiri.moniepoint_test.R
 import com.arepadeobiri.moniepoint_test.data.CHIPS
-import com.arepadeobiri.moniepoint_test.ui.composables.AnchoredDropdown
+import com.arepadeobiri.moniepoint_test.data.NavigationRoutes
+import com.arepadeobiri.moniepoint_test.ui.composables.Dropdown
 import com.arepadeobiri.moniepoint_test.ui.composables.Button
 import com.arepadeobiri.moniepoint_test.ui.composables.Chip
 import com.arepadeobiri.moniepoint_test.ui.composables.EditText
-import com.arepadeobiri.moniepoint_test.ui.models.navigation.NavigationRoutes
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -146,7 +146,7 @@ fun CalculateScreen(navController: NavController) {
                 )
 
                 Spacer(Modifier.height(16.dp))
-                AnchoredDropdown(
+                Dropdown(
                     listOf("Box", "Container", "Bubble wrap"),
                     { packaging = it },
                     packaging

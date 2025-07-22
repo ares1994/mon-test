@@ -38,7 +38,7 @@ import com.arepadeobiri.moniepoint_test.R
 
 
 @Composable
-fun AnchoredDropdown(
+fun Dropdown(
     options: List<String>,
     onSetValue: (value: String) -> Unit,
     value: String

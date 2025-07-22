@@ -155,8 +155,11 @@ fun HomeScreen(navController: NavController) {
                                         .clip(RoundedCornerShape(20.dp))
                                         .width(40.dp)
                                         .height(40.dp)
-                                        .background(color = MaterialTheme.colorScheme.background)
-                                ) { }
+                                        .background(color = MaterialTheme.colorScheme.background),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Image(painter = painterResource(R.drawable.outline_notifications_24), contentDescription = null)
+                                }
                             }
 
                             Spacer(modifier = Modifier.height(16.dp))

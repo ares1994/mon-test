@@ -43,7 +43,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.arepadeobiri.moniepoint_test.R
-import com.arepadeobiri.moniepoint_test.ui.models.navigation.NavigationRoutes
+import com.arepadeobiri.moniepoint_test.data.NavigationRoutes
 import com.arepadeobiri.moniepoint_test.ui.screens.CalculateScreen
 import com.arepadeobiri.moniepoint_test.ui.screens.HomeScreen
 import com.arepadeobiri.moniepoint_test.ui.screens.ShipmentHistoryScreen

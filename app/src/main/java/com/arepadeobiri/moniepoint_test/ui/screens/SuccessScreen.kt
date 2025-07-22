@@ -19,8 +19,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.arepadeobiri.moniepoint_test.data.NavigationRoutes
 import com.arepadeobiri.moniepoint_test.ui.composables.Button
-import com.arepadeobiri.moniepoint_test.ui.models.navigation.NavigationRoutes
 import com.arepadeobiri.moniepoint_test.ui.theme.Green
 
 @Composable

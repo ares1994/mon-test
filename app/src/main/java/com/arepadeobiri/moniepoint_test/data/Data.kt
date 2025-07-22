@@ -18,3 +18,6 @@ enum class ShipmentState {
 }
 
 
+enum class NavigationRoutes {
+    Home, Shipment, Calculate, Profile, Success
+}
