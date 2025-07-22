@@ -62,6 +62,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.arepadeobiri.moniepoint_test.R
 import com.arepadeobiri.moniepoint_test.data.SEARCH_ITEMS
+import com.arepadeobiri.moniepoint_test.data.VEHICLES
 import com.arepadeobiri.moniepoint_test.ui.theme.Orange
 
 
@@ -450,7 +451,7 @@ fun HomeScreen(navController: NavController) {
                     LazyRow(modifier = Modifier.fillMaxWidth(), state = rememberLazyListState()) {
 
 
-                        itemsIndexed(listOf(1, 2, 3, 4)) { index, item ->
+                        itemsIndexed(VEHICLES) { index, item ->
                             if (index == 0) Spacer(Modifier.width(16.dp))
                             Row {
                                 Column(
@@ -463,7 +464,7 @@ fun HomeScreen(navController: NavController) {
 
                                     Column(Modifier.padding(16.dp)) {
                                         Text(
-                                            "Ocean Freight",
+                                            item,
                                             style = TextStyle.Default.copy(fontSize = 16.sp)
                                         )
                                         Spacer(Modifier.height(4.dp))

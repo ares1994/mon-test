@@ -67,3 +67,7 @@ val SEARCH_ITEMS = listOf(
 val CHIPS = listOf(
     "Documents","Glass","Liquid","Food","Electronic","Product","Others"
 )
+
+val VEHICLES = listOf(
+    "Ocean Freight","Cargo Freight","Air Freight","Land Freight"
+)
